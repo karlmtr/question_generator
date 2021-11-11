@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+    .text-area{
+        @apply rounded-xl my-3 border block border-transparent focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent;
+    }
+    .label-form{
+        @apply underline px-2;
+    }
+    .boite{
+        @apply px-8 py-3 flex flex-col;
+    }
+
+    .preview-answer{
+     @apply  text-black bg-blue-100 hover:bg-blue-400 rounded-lg my-3 p-2 whitespace-pre-wrap;
+    }
+
+    .correct-answer{
+        @apply border-solid border-4 border-green-500;
+    }
+ 
+}
