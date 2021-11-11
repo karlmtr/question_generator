@@ -15,11 +15,18 @@
     }
 
     .preview-answer{
-     @apply  text-black bg-blue-100 hover:bg-blue-400 rounded-lg my-3 p-2 whitespace-pre-wrap;
+     @apply  text-black bg-blue-100 hover:bg-blue-400 rounded-md my-3 p-2 whitespace-pre-wrap;
     }
 
     .correct-answer{
-        @apply border-solid border-4 border-green-500;
+        @apply border-solid border-4 border-green-400;
+    }
+
+    .copy-tooltip {
+        @apply relative w-auto p-2 m-2 min-w-max left-24 bottom-12 rounded-md shadow-md
+        bg-green-400 text-sm font-bold text-gray-900
+        transition-all duration-100 scale-0 origin-left;
+
     }
  
 }

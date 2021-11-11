@@ -1,16 +1,16 @@
 <template>
-  <div class=" bg-gray-300 flex-col">
-    <div class="w-3/4 pb-10 mx-auto min-h-screen bg-gray-100">
+  <div class=" bg-gray-300 flex-col font-sans subpixel-antialiased">
+    <div class="sm:w-full md:w-3/4 pb-10 mx-auto bg-gray-100">
       <h1
         class="
           p-6
-          underline
+
           text-black-100 text-2xl
-          antialiased
+      
           text-center
         "
       >
-        Formatteur de questions pour l'application QuizzApp
+        Créateur de questions
       </h1>
       <QuestionForm />
       
